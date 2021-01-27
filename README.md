@@ -9,7 +9,7 @@ HTML 기본 학습
 -------------------------------
 
 ## HTML 이란?
-[HTML](https://github.com/BlancBunny/StudyHtml/tree/main/01_HTML)
+[HTML source](https://github.com/BlancBunny/StudyHtml/tree/main/01_HTML)
 
 -------------------------------
 
