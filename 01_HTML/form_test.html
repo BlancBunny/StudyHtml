@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Basic</title>
+</head>
+<body>
+    <form>
+        <!--사용자가 입력하는 양식-->
+        아이디 : <input type="text" name="userid" value="blancbunny"><br>
+        비밀번호 : <input type="password" name="password" value="12345"><br>
+        <input type="file" name="attach_file"><br>
+        <b>취미 선택</b><br>
+        <input type="checkbox" name="chk_hobby_swim" value="SWIM">수영<br>
+        <input type="checkbox" name="chk_hobby_marathon" value="MARATHON">마라톤<br>
+        <input type="radio" name="radio" value="MALE">남자 
+        <input type="radio" name="radio" value="FEMALE">여자<br>
+    
+        <!--보이지 않는 양식-->
+        <input type="hidden" name="hidden" value="2453453452d">
+
+        <!--버튼-->
+        <input type="button" name="btn_normal" value="버튼"><br>
+        <input type="reset" name="btn_reset" value="리셋"><br>
+        <input type="submit" name="btn_submit" value="제출"><br>
+        
+        <!--기타-->
+        <input type="image" src="https://placehold.it/400x250">
+
+        <!--선택컨트롤(콤보박스/드랍다운)-->
+        <select>
+            <option value=""></option>
+        </select>
+    </form>    
+</body>
+</html>
