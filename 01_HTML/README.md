@@ -35,7 +35,8 @@
 <sup> : 윗첨자
 <sub> : 아래첨자
   
-<a> : 닻(anchor) 태그, 하이퍼링크 생성  / 속성 [href="URL 주소", target="_self" "_blank" "_parent"]
+<a> : 닻(anchor) 태그, 하이퍼링크 생성  
+  속성 [href="URL 주소", target="_self" "_blank" "_parent"]
 
 <ol> : 순서 있는 리스트 (ordered list) 
 <ul> : 순서 없는 리스트 (unordered list)
@@ -76,6 +77,5 @@
   
   
 
-[이전](https://github.com/BlancBunny/StudyHtml/tree/main/01_HTML)<br> 
-[처음으로](https://github.com/BlancBunny/StudyHtml)
+[이](https://github.com/BlancBunny/StudyHtml)
 
