@@ -6,7 +6,7 @@
 ## HTML5 기본 태그
 
 
-### <head> 태그 : 형식 지정
+### head 태그 : 형식 지정
 ```
 <title> : 웹 페이지 제목 설정
 <link> : 링크 태그 (외부 css 파일 사용) 속성 [rel="", href="style.css"]
@@ -21,7 +21,7 @@
   src="sample.js" 속성으로 외부 자바스크립트 참조 가능  
 ```
 
-### <body> 태그 : 내용 작성
+### body 태그 : 내용 작성
 ```
 <h1> ~ <h6> : 제목 글자 태그 1~6
 <p> : 문단(paragraph)
@@ -77,5 +77,5 @@
   
   
 
-[이](https://github.com/BlancBunny/StudyHtml)
+[이전](https://github.com/BlancBunny/StudyHtml)
 
