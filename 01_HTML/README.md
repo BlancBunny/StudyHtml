@@ -3,8 +3,7 @@
 ## 웹 페이지 기본 구조와 작성방법 
 태그, 요소, 속성의 이해 및 HTML, CSS, JS 작성방법 따라하기 
 
-## HTML5 기본 태그
-
+## 1. HTML5 기본 태그
 
 ### head 태그 : 형식 지정
 ```
@@ -53,9 +52,7 @@
 <video> : 동영상 파일 삽입 태그 / 속성 [src="URL" / controls="controls"]
 ```
 
-
-
-## HTML5 입력 태그 (form 태그 내부에서 동작) 
+## 2. HTML5 입력 태그 (form 태그 내부에서 동작) 
 ```
 <input type="text" name="userID" value="ID">
 [input type]
