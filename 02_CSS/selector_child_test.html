@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS3 Selector Basic</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header>h1 {
+            color: red;
+        }
+
+        #section>h1 {
+            color: orange;
+        }
+
+        #nav>h1 {
+            color: blue;
+        }
+
+        h3:hover {
+            background-color: black;
+        }
+        h3:active {
+            background-color: red;
+        }
+        
+        input:focus {
+            background-color:orange;
+        }
+        input:disabled {
+            background-color: gray;
+        }
+    </style>
+    <!--
+
+    <style>
+        #header h1, h2 { color: red; }   -> header id를 가진 div 태그 내부의 h1과 "모든" h2 선택 
+        #header h1, #header h2 { color: red; } -> header id를 가진 div 태그 내부의 h1 과 h2 선택 
+    </style>
+
+    -->
+</head>
+
+<body>
+    <div id="header">
+        <h1 class="title">Lorem ipsum</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+        <h3>X1</h3>
+    </div>
+    <div id="section">
+        <h1 class="title">Lorem ipsum</h1>
+        <h3>X2</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam repellat eveniet illo sit. Vel
+            neque nobis nesciunt animi beatae cumque illo sit in facere dignissimos, officiis, quasi aspernatur
+            voluptatum.</p>
+    </div>
+
+    <div>
+        <form>
+            <label for="">이름</label>
+            <input type="text" name="user_id" value="ID 입력"><br>
+            <label for="">비밀번호</label>
+            <input type="password" name="user_pw" value="PW" disabled>            
+        </form>
+    </div>
+    
+</body>
+</html>
