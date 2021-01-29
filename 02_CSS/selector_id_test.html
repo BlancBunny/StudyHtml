@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Selector ID Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header {
+            width: 800px;
+            margin: 0 auto;
+            background: red;
+        }
+
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #aside {
+            width: 300px;
+            float: left;
+            background-color: khaki;
+        }
+
+        #content {
+            width: 500px;
+            float: right;
+            background: greenyellow;
+        }
+
+        #content h1 {
+            text-align: right;
+            background: hotpink;
+        }
+
+        #footer {
+            width: 800px;
+            margin: 0 auto;
+
+        }
+
+        .webpage1 {
+            color: red;
+            font-weight: bold;
+        }
+
+        .webpage2 {
+            color: blue;
+            font-weight: lighter;
+        }
+
+        .item {
+            color: darkorchid;
+        }
+        .footer {
+            background: silver;
+        }
+        .center {
+            align-content: center;
+        }
+        input[type="text"] {
+            background: red;
+        }
+
+        input[type="password"] {
+            background: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+            <ul>
+                <li class="webpage1"><a href="https://www.naver.com">네이버</a></li>
+                <li class="webpage2"><a href="https://www.google.com">구글</a></li>
+                <li><a href="https://www.youtube.com">유튜브</a></li>
+            </ul>
+            <!--하이퍼링크에 css 스타일이 적용 안됨-->
+
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+            <form>
+                <input type="text">
+                <input type="password"> <br>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="item footer">#footer 태그</h1>
+    </div>
+</body>
+
+</html>
