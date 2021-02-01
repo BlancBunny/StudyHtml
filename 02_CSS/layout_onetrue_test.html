@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One True Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 10px auto;
+            width: 800px;
+        }
+
+        #header {
+            overflow: hidden;
+            background-color: darkorange;
+        }
+
+        #section {
+            overflow: hidden;
+        }
+
+        #aside {
+            float: left;
+            width: 200px;
+            background-color:blueviolet;
+        }
+        #content {
+            float:right;
+            width:600px;
+            background-color: cornflowerblue;
+        }
+        #footer {
+            background-color: cyan;
+
+        }
+
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo ut ex soluta culpa
+        consequatur magni ipsa, vero commodi assumenda aut repudiandae accusantium corrupti ipsam quo hic voluptatum eum
+        voluptate.</div>
+    <div class="ellipsis">
+        <div id="aside">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, optio. Dolor aspernatur ut
+            aliquam facere nostrum ducimus pariatur labore vitae minus ipsam est, nihil ad omnis minima, delectus dicta
+            totam?</div>
+        <div id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita placeat eos repellendus
+            nemo dignissimos suscipit ut omnis, pariatur ratione vitae obcaecati voluptatibus, autem, cupiditate eaque
+            voluptate. Recusandae suscipit eum est?</div>
+    </div>
+    <div id="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias, ex voluptatem, rerum
+        numquam magni cum maiores officia sit eum quam minus consectetur eveniet itaque est laboriosam in ab unde.</div>
+</body>
+
+</html>
