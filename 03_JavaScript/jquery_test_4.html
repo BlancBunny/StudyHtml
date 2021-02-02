@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JQuery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <script>
+        // 
+        
+        $(document).ready(function() {
+            var input1 = $("input:nth-child(1)");
+            var input2 = $("input:nth-child(3)");
+            var event = event || window.event;
+
+            input1.keydown(function() {
+                if ($(this).val().length >= 6) {
+                    input2.focus();
+                }
+            });
+            input2.keydown(function(event) {
+                if (event.keyCode == 8 && $(this).val().length == 0) {
+                    input1.focus();
+                }
+            });
+
+
+        });
+
+    </script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" maxlength="6">
+        <span>-</span>
+        <input type="text" maxlength="7">
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>
