@@ -19,7 +19,9 @@ HTML 기본 학습
 -------------------------------
 
 ## JavaScript
-JS 기본 학습
+[js source](https://github.com/BlancBunny/StudyHtml/tree/main/03_JavaScript)
+
+
 
 -------------------------------
 
