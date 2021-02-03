@@ -45,7 +45,7 @@
             function showLightBox() {
                 $('#random-image').attr({
                     src: function() {
-                        var rnd_height = Math.floor(Math.random() * 300) + 300;
+                        var rnd_height = Math.floor(Math.random()*150+300);
                         return "http://placeimg.com/600/" + rnd_height;
                     }
                 });
