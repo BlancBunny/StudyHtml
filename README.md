@@ -3,12 +3,7 @@ HTML5, CSS3, JS 학습용 리포지토리
 
 -------------------------------
 
-## HTML5 ?
-HTML 기본 학습 
-
--------------------------------
-
-### HTML 기본 학습
+### HTML5 기본 학습
 [HTML source](https://github.com/BlancBunny/StudyHtml/tree/main/01_HTML)
 
 -------------------------------
@@ -19,8 +14,7 @@ HTML 기본 학습
 -------------------------------
 
 ## JavaScript
-[js source](https://github.com/BlancBunny/StudyHtml/tree/main/03_JavaScript)
-
+[Javascript source](https://github.com/BlancBunny/StudyHtml/tree/main/03_JavaScript)
 
 
 -------------------------------
@@ -28,3 +22,4 @@ HTML 기본 학습
 ## Project
 전체 통합 프로젝트
 
+#### 반응형 웹 그리드 레이아웃 웹페이지 실습 
