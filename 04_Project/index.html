@@ -42,11 +42,13 @@
         // 라이트박스 
         $(document).ready(function() {
             // 라이트박스 표시
-            function showLightBox() {
+            function showLightBox(obj) {
+                var img_src = obj.getElementsByTagName("img")[0].src;
                 $('#random-image').attr({
                     src: function() {
                         var rnd_height = Math.floor(Math.random()*150+300);
-                        return "http://placeimg.com/600/" + rnd_height;
+                        return img_src;
+                        // "http://placeimg.com/600/" + rnd_height;
                     }
                 });
                 $('#darken-background').show();
@@ -70,7 +72,7 @@
 
             // 클릭 이벤트
             $('.paper').click(function() { 
-                showLightBox(); 
+                showLightBox(this); 
             });
 
             // 라이트박스 제거 이벤트 보조
