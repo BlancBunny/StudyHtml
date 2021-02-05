@@ -30,6 +30,10 @@
     margin-left: 10px;
 }
 
+.paper-holder:hover {
+    transform: scale(1.05);
+}
+
 /*미디어 쿼리 미지원*/
 #main-section {
     width: 920px;
